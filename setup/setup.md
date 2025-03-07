@@ -172,6 +172,16 @@ The `sonar-project.properties` file is essential for configuring SonarQube analy
 
 ---
 
+## 📌 Step 4: Enable Code Coverage in SonarQube
+
+###     🔧 Description
+
+- SonarQube does not calculate code coverage on its own. Instead, it relies on external test coverage tools such as Jest (for JavaScript/TypeScript), JaCoCo (for Java), or pytest-cov (for Python).
+
+Follow this link: [Code coverage](https://docs.sonarsource.com/sonarqube-server/10.8/analyzing-source-code/test-coverage/overview/)
+
+---
+
 ## 🔎 Run the Sonar Scanner
 
 Execute the scanner in your project directory:
