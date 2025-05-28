@@ -138,6 +138,8 @@ docker ps
 ![Pasted image 20250306121441](https://github.com/user-attachments/assets/591eca92-f083-4215-9608-6dcf90f98b11)
 ![Pasted image 20250306121618](https://github.com/user-attachments/assets/5c357a8c-26e2-465e-9dc6-f24d5f70be3b)
 6. SonarQube will generate a token for your project. Copy this token.
+> Note: If you generate a token for a long-running project, generate the token based on that. Please check all available options.
+
 ![Pasted image 20250306121656](https://github.com/user-attachments/assets/d35511ab-e342-4b37-baa6-f8b3f1cdf99e)
 
 
