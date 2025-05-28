@@ -44,7 +44,13 @@ Before proceeding, please ensure the following:
 
 ## Step-by-Step CI Setup
 
-### 1. Configure SonarQube Environment Variables
+### 1. Generate Token
+
+  For Generate token follow this: [Document](https://github.com/kevit-Vishal-Parmar/sonarqube-setup/blob/main/setup/setup.md#-verify-sonarqube-is-running)
+
+---
+
+### 2. Configure SonarQube Environment Variables
 
 - In your GitHub repository, go to **Settings > Secrets and Variables > Actions**.  
 - Add the following environment secrets:
@@ -53,14 +59,10 @@ Before proceeding, please ensure the following:
 
 ---
 
-### 2. Create GitHub Action for SonarQube CI
+### 3. Create GitHub Action for SonarQube CI
 
 - In your GitHub repo, go to the **Actions** tab.
 - Create a new workflow YAML file (e.g., `.github/workflows/sonar.yml`).
 - Define your trigger (on `pull_request`, `push`, or specific branches).
 
-#### Example Workflow:
 
-```yaml
-
-```
