@@ -63,6 +63,6 @@ Before proceeding, please ensure the following:
 
 - In your GitHub repo, go to the **Actions** tab.
 - Create a new workflow YAML file (e.g., `.github/workflows/sonar.yml`).
-- Define your trigger (on `pull_request`, `push`, or specific branches).
+- Define your trigger (on `pull_request`, `push`, or specific branches) [Docuementation](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows).
 
 
