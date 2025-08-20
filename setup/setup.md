@@ -15,7 +15,7 @@ Ensure you have the following installed on your system:
 
 ## 📥 Download the Sonar Scanner
 
-Follow this guide: [How to Install SonarScanner CLI](https://medium.com/novai-devops-101/how-to-install-sonarscanner-cli-client-on-windows-linux-and-macos-94b033f719c4)
+Follow this guide: [How to Install SonarScanner CLI](https://medium.com/novai-devops-101/how-to-install-sonarscanner-cli-client-on-windows-linux-and-macos-94b033f719c4) | [Documentation](https://docs.sonarsource.com/sonarqube-server/latest/analyzing-source-code/scanners/sonarscanner/#configuring-your-project)
 
 ---
 
