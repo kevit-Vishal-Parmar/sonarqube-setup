@@ -5,7 +5,12 @@ SonarQube Quality Gates act as **control points** to ensure software quality bef
 
 ---
 
-## 2. What is the Need for Quality Gates?  
+## 2. What is the Need for Quality Gates?
+Currently, most of our projects are using the default SonarQube Quality Gate. While this provides a basic check, it does not consider:
+  - Domain-specific needs (e.g., banking apps require stronger security rules, internal tools may need flexibility)
+  - Project maturity (some projects have legacy code, others are greenfield).
+  - Different risk levels (customer-facing apps vs. internal dashboards).
+    
 Quality Gates are needed because:  
 - They **prevent high-risk issues** like vulnerabilities and bugs from reaching production.  
 - They help manage **technical debt** by enforcing consistent improvement in new code.  
@@ -14,6 +19,11 @@ Quality Gates are needed because:
 
 ---
 ## 3. Why Do We Need Project-Specific Quality Gates?  
+Current Problem with Default Quality Gate
+  - It applies the same rules for every project, regardless of criticality.
+  - This sometimes leads to overly strict checks (blocking teams unnecessarily) or too lenient checks (letting risks slip through).
+  - As a result, the default gate is not aligned with real-world requirements of our projects.
+    
 Each project has unique needs, so the gates must be customized instead of using one-size-fits-all rules.
 - **Alignment with business priorities** (e.g., stricter for finance, flexible for internal tools).  
 - **Practical thresholds** that encourage progress without blocking teams.  
