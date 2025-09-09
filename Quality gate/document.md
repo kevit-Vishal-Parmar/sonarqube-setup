@@ -70,6 +70,7 @@ Internal dashboards or reporting systems are not exposed externally and carry lo
 
 ### Shared Libraries / SDKs  
 Shared components are reused across multiple systems. If they are faulty, the impact spreads widely. The priority is to enforce **higher standards of reliability, maintainability, and test coverage** to ensure long-term stability.  
+
 ---
 
 ## 6. How Should Teams Approach Gate Definition?  
